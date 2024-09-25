@@ -1,0 +1,27 @@
+{
+  "name": "xrpl_template",
+  "version": "0.1.0",
+  "description": "example tutorials for developing the smart contracts on XRPL",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node --watch index.ts",
+    "dev": "ts-node-dev index.ts"
+  },
+  "keywords": [
+    "web3",
+    "xrpl"
+  ],
+  "author": "Dhruv",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "xrpl": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.0",
+    "dotenv": "^16.4.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.2"
+  }
+}
